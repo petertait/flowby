@@ -1,0 +1,15 @@
+{
+  "name": "react-starter",
+  "description": "React starter using ES6 – includes hot reloading for React and PostCSS",
+  "keywords": [
+    "react",
+    "es6",
+    "postcss",
+    "starter"
+  ],
+  "repository": "https://github.com/petertait/react-starter",
+  "env": {
+    "PRODUCTION": "true",
+    "NPM_CONFIG_PRODUCTION": "false"
+  }
+}
