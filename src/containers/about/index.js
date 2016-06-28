@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import { browserHistory } from "react-router";
 import CSSModules from 'react-css-modules';
 
-import Button from '../../components/button';
+import Button from '../../components/Button';
 
 import styles from "./styles.css";
 
@@ -23,7 +23,7 @@ class About extends Component {
           <Button styleName='button' onClick={this.home}>Return home</Button>
         </div>
       </div>
-    );
+    )
   }
 }
 

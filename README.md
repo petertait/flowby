@@ -1,9 +1,9 @@
-# React Starter
-#### Boilerplate for React – includes hot reloading for jsx and postcss.
+# Flowby
+#### Shows a stream of images from the Flowby dropbox folder.
 
-Initially based off of [Essential React](https://github.com/pheuter/essential-react), this has been tweaked to fit my needs and fixed to include hot reloading on style changes.
+Dropbox APIv2: https://dropbox.github.io/dropbox-api-v2-explorer/
 
-Includes various PostCSS plugins such as a simple grid and cssnext.
+Javascript implementation of Dropbox APIv2 using Dropbox HTTP API: https://github.com/JamesMaroney/dropbox-js
 
 <br>
 
