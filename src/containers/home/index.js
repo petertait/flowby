@@ -21,7 +21,6 @@ class Home extends Component {
           <p styleName='description'>Welcome to React Starter.</p>
         </div>
         <div styleName='content'>
-          // <Auth />
           <Stream />
         </div>
       </div>

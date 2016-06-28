@@ -8,7 +8,7 @@ import styles from "./styles.css";
 class Auth extends Component {
 
   authenticate() {
-    var loginLocation = window.location.href + 'about';
+    var loginLocation = window.location.href;
     Dropbox.authenticate( { client_id: 'qbryowo5frs09ht', redirect_uri: loginLocation },
       function(){
         console.log(loginLocation);
