@@ -1,15 +1,14 @@
 {
-  "name": "react-boilerplate",
-  "version": "0.3.3",
-  "license": "MIT",
+  "name": "Flowby",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rbartoli/react-boilerplate"
+    "url": "git+https://github.com/petertait/flowby"
   },
   "author": {
-    "name": "Riccardo Bartoli",
-    "email": "info@rblab.com",
-    "url": "http://rblab.com"
+    "name": "Peter Tait",
+    "email": "contact@petertait.com",
+    "url": "http://petertait.com"
   },
   "dependencies": {
     "react": "^15.1.0",
@@ -23,6 +22,9 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-react-hmre": "^1.1.1",
     "css-loader": "^0.23.1",
+    "eslint": "^2.11.0",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-react": "^5.1.1",
     "postcss-advanced-variables": "^1.2.2",
     "postcss-color-function": "^2.0.0",
     "postcss-conditionals": "^2.0.1",
@@ -30,12 +32,10 @@
     "postcss-grid": "^2.0.0",
     "postcss-loader": "^0.9.1",
     "postcss-nesting": "^2.3.0",
-    "rucksack-css": "^0.8.5",
-    "eslint": "^2.11.0",
-    "eslint-loader": "^1.3.0",
-    "eslint-plugin-react": "^5.1.1",
     "react-css-modules": "^3.7.6",
+    "react-helmet": "^3.1.0",
     "rimraf": "^2.5.2",
+    "rucksack-css": "^0.8.5",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
