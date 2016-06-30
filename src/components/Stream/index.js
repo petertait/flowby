@@ -10,7 +10,9 @@ class Stream extends Component {
 
   render() {
     return (
-      <Image />
+      <section styleName='container'>
+        <Image />
+      </section>
     )
   }
 }

@@ -9,8 +9,12 @@ class Header extends Component {
   render() {
     return (
       <header styleName='header'>
-        <h1>{'React App'}</h1>
-        <nav><Link to="/">{'Login'}</Link></nav>
+        <div styleName='inner'>
+          <h1 styleName='logo'>Flowby</h1>
+          <nav styleName='nav'>
+            <Link to="/">Login</Link>
+          </nav>
+        </div>
       </header>
     )
   }

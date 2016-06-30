@@ -1,6 +1,0 @@
-.container {
-  max-width: $maxWidth;
-  margin: auto;
-  padding-left: $gutter;
-  padding-right: $gutter;
-}

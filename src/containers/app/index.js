@@ -15,7 +15,7 @@ class App extends Component {
 
   render() {
     return (
-      <div styleName='container'>
+      <div>
         <Header />
         <Stream />
         {this.props.children}
