@@ -10,7 +10,7 @@ import Styles from './styles.css'
 
 class App extends Component {
   componentWillMount() {
-    document.body.style.backgroundColor = Vars.primary;
+    document.body.style.backgroundColor = 'white'
   }
 
   render() {

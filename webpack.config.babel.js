@@ -14,7 +14,7 @@ let config = {
   },
   devtool: 'eval-source-map',
   devServer: {
-    contentBase: 'public',
+    contentBase: 'build',
     historyApiFallback: true
   },
   module: {

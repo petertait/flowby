@@ -8,7 +8,7 @@ class Image extends Component {
 
   render() {
     return (
-      <img src='https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiO47m-utDNAhVnDsAKHZoPAooQjRwIBw&url=http%3A%2F%2Fwww.bloomingrand.com%2F&psig=AFQjCNGJ6QlxRo5ocWvx-cfsEYFHYBHTxQ&ust=1467400366179592' alt='' />
+      <img src='https://i.guim.co.uk/img/media/9b9694531c20a1419a0b26f1b9a4413175549eed/0_334_3565_2507/master/3565.jpg?w=720&q=20&auto=format&usm=12&fit=max&dpr=2&s=1bc9764c042d61a3692cfccc5b865d39' alt='' />
     )
   }
 }
