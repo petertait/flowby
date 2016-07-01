@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Stream {...this.props} />
+        <Stream images={this.state.images} {...this.props} />
       </div>
     )
   }
