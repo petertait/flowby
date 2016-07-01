@@ -7,11 +7,16 @@ import Image from './../Image'
 import Styles from './styles.css'
 
 class Stream extends Component {
+  renderImage(key) {
+    return (
+      <Image key={key} index={key} url={this.props.state.images.image}/>
+    )
+  }
 
   render() {
     return (
       <section styleName='container'>
-        <Image />
+        {Object.keys(this.props.state.images).map(this.renderImage)}
       </section>
     )
   }

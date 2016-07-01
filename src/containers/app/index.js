@@ -13,12 +13,19 @@ class App extends Component {
     document.body.style.backgroundColor = 'white'
   }
 
+  constructor() {
+    super()
+
+    this.state = {
+      images : require('../../sample')
+    }
+  }
+
   render() {
     return (
       <div>
         <Header />
-        <Stream />
-        {this.props.children}
+        <Stream {...this.props} />
       </div>
     )
   }
